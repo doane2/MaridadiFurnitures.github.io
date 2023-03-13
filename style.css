@@ -1,0 +1,27 @@
+* {
+    margin: o; padding: o; box-sizing: border-box;
+}
+body{display: flexx; align-items: center; justify-content: center; height: 100vh;}
+
+.images img{width: 100%; height: 100%;}
+
+h1{color: blue; font-size: 300%; font-weight: bold; font-style: normal; font-family: verdana; text-align: center;
+padding: 20px;}
+h2{color: black; font-family: 180%; font-weight: bold; font-style: normal; font-family: Times; 
+    text-align:center ;}
+ p{color: black; font-family: times;text-align: center; font-size: 120%; }  
+h3{color: black; font-size: 180%; text-align: center; font-family: times; font-weight: bold; font-style: normal;}
+h4{color: black; font-size: 180%; text-align: center; font-family: times; font-weight: bold; font-style: normal;}
+h5{color: black; font-size: 180%; text-align: center; font-family: times; font-weight: bold; font-style: normal;}
+
+.container { width: 950; height: 550px; 
+box-shadow: 3px 3px 16px rgba(0,0,0,0.7);  overflow: hidden; }
+
+.topnav {overflow: hidden; background-color: #333;}
+.topnav a{float: left; display: block; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none;}
+.topnav a:hover {background-color: #ddd; color: black;}
+
+.column{ float: left; width: 33.33%;background-color: gainsboro;}
+.row:after { content: ""; display: table; clear: both; }
+@media screen and (max-width:600px) {.column {width: 100%;}
+}
